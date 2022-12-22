@@ -28,8 +28,6 @@ You can get this dataset from [kaggle](https://www.kaggle.com/competitions/kitch
  
 ## Dataset information:
 This dataset consist of 5559 labeled images. The information about classes is in the train.py
-In time series data we wish to predict some variable given only a trailing window of its previous values. 
-In this model used [lag_1, lag_2, lag_3, lag_4, lag_5] features, which contains sales data for previous weeks
 
 ## How to reproduce the project
 Clone this repo in your local machine with the command:
