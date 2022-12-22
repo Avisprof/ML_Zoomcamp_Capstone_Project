@@ -79,6 +79,9 @@ Run docker image
 docker run -it --rm -p 3000:3000 kitchen_classification:qwjcdleb4wibvx7k serve --production
 ```
 
+To check model you can run jupyter notebook file:
+[predict.ipynb](predict.ipynb)
+
 Then open http://localhost:3000 in your browser and load image to prediction
 
 ![bento_choose_file](pic/bento_choose_file.jpg)
@@ -104,4 +107,7 @@ Then open http://localhost:3000 in your browser and load image to prediction
 
 ## Cloud deploy
 
-You can make use http://79.137.198.248:3000/ with cloud deployment, press "Post" button, after that press "Try it out" button, choose the image file and press the "Execute" button
+To check cloud model you can run jupyter notebook file:
+[using_bentoml_model.ipynb](using_bentoml_model.ipynb)
+
+Ore you can make use http://79.137.198.248:3000/ with cloud deployment, press "Post" button, after that press "Try it out" button, choose the image file and press the "Execute" button
