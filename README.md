@@ -53,5 +53,11 @@ docker run -it -p 3000:3000 interests/kitchenware_image_classification:latest se
 Then open http://localhost:3000 in your browser and load image to prediction
 
 
-Or you can make use http://79.137.198.248:3000/ with cloud deployment
+Or you can make use http://79.137.198.248:3000/ with cloud deployment, than press "Post" button, after that press "Try it out" button:
+
+![bento_choose_file](pic/bento_choose_file.jpg)
+
+Choose the image file and press the "Execute" button
+
+![pic/bento_predictions](pic/bento_predictions.jpg)
 
