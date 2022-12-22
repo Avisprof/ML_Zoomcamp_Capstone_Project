@@ -50,4 +50,8 @@ Run the docker image to start the BentoServer:
 docker run -it -p 3000:3000 interests/kitchenware_image_classification:latest serve --production
 ```
 
+Then open http://localhost:3000 in your browser and load image to prediction
+
+
+Or you can make use http://79.137.198.248:3000/ with cloud deployment
 
