@@ -1,0 +1,10 @@
+service: "bentoml_service.py:svc"
+labels:
+  owner: avisprov
+  project: kitchenware_classification
+include:
+  - "bentoml_service.py"
+python:
+  packages:
+    - tensorflow
+    - Pillow  
