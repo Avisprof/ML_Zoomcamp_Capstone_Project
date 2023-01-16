@@ -109,5 +109,3 @@ Then open http://localhost:3000 in your browser and load image to prediction
 
 To check cloud model you can run jupyter notebook file:
 [using_bentoml_model.ipynb](using_bentoml_model.ipynb)
-
-Ore you can make use http://79.137.198.248:3000/ with cloud deployment, press "Post" button, after that press "Try it out" button, choose the image file and press the "Execute" button
